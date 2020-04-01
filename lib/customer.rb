@@ -1,7 +1,7 @@
 class Customer
 
   @@all = []
-  
+
   attr_accessor :name, :age
 
 
@@ -9,5 +9,5 @@ class Customer
     @name, @age = name, age
     @@all << self
   end
-  
+
 end
